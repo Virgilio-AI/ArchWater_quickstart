@@ -1,0 +1,109 @@
+\begin{section}{neovim}
+	The kick start for neovim is
+	\begin{subsection}{vimrc bindings}
+
+		this are the bindings that are done to navigate the configuration files. they can be used in any instance of neovim
+
+		In normal mode use:
+
+		open the init.vim
+		
+		edit vim
+
+		\textbackslash ev
+
+		edit the shortcuts.neovim
+
+		edit vim shortcust
+
+		\textbackslash evs
+
+		edit the vims autocommands
+
+		edit the vim autocommands
+
+		\textbackslash eva
+
+		edit vim skeletons
+
+		\textbackslash evs
+
+
+	\end{subsection}
+	\begin{subsection}{file browsing inside neovim}
+		In Normal mode use:
+
+		using the nred tree plugin you can have a file tree on the side
+
+		using normal mode type:
+
+		\<Ctrl\> + b
+
+		move with vim bindings
+
+		to list available commands type a simple ? character
+
+	\end{subsection}
+	\begin{subsection}{using code runner for code forces or similar}
+		vim code runner comes by default in water linux and the bindings you can try are:
+		
+		run code in a terminal
+
+		if \<F11\>\<F11\> has been used \<F11\> has the same functionality
+
+		\<F11\>
+
+		run code in the terminal and get test cases to compare with correct samples
+
+		\<F11\>\<F11\>\<F11\>
+
+		force run code in terminal, this is usefull when \<F11\>\<F11\> has been used
+
+		refer to \url{https://github.com/Virgilio-AI/vim-code-runner}
+
+		for supported languages and for details
+
+	\end{subsection}
+	\begin{subsection}{using neovim to edit leetcode files and test code}
+		vim leetcode comes by default in water linux refer \url{https://github.com/Virgilio-AI/leetcode-neovim.git}
+
+		for details and configuration steps
+
+		to enter leetcode mode you have to type in the terminal
+
+		lc (leetcode problem number)
+
+		"Example:
+
+		lc 25
+
+		then a neovim instance will pop up with a terminal
+
+		leetcode neovim in water linux comes with python configured as the default
+
+		in normal mode use:
+		
+		\<F11\>\<F11\> to execute code
+
+		you can use \<F11\> to test code
+
+		all the commands will be executed in the terminal
+
+	\end{subsection}
+	\begin{subsection}{skeletons in neovim}
+
+		to put a new skeleton in neovim edit the skeletons.vim file
+
+		in normal mode use:
+
+		\textbackslash evS
+
+		edit the snippet file example:
+
+		python.snippet inside the UltiSnips folder in the same folder as the init.vim file
+
+		there are already examples in thouse files just follow the same logic
+
+	\end{subsection}
+\end{section}
+
